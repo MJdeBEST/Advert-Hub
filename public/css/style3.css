@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: sans-serif; */
+}
+
+.profile {
+    position: absolute;
+    width: 200px;
+    height: 252px;
+    top: 30px;
+    left: 49px;
+    gap: 0px;
+    opacity: 0px;
+
+    background-color: blueviolet;
+}
+
+.p_pic {
+
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: burlywood;
+
+}
+
+
+.Edit {
+    position: absolute;
+    width: 34px;
+    height: 22px;
+    top: 224px;
+    left: 88px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.Edit p {
+    position: absolute;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+
+}

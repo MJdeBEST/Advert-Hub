@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softmeet</title>
+    <link rel="stylesheet" href="/css/stylenew-new.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        /* Hide the elements initially */
+        .Get_a_qoute, .Power_of_advertisement_container {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 2px solid lime;
+            padding: 20px;
+            z-index: 1000;
+            width: 80%;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Add overlay background when modal is open */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+
+        /* Show when active */
+        .modal-active {
+            display: block;
+        }
+
+        /* Button styling (Optional) */
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="assets/C.png">
+        <div class="navbar">
+            <div class="Logout">
+                <box-icon name='log-out'></box-icon>
+                <a href="/SignIn">Logout</a>
+            </div>
+            <div class="Profile">
+                <box-icon name='user'></box-icon>
+                <a href="#">Profile</a>
+            </div>
+            <div class="My-updates">
+                <box-icon name='file'></box-icon>
+                <a href="/Updates">My updates</a>
+            </div>
+            <div class="Home">
+                <box-icon name='home'></box-icon>
+                <a href="#">Home</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="Container_homepage">
+        <div class="homepageContainerContent">
+            <h4>Welcome to <span class="Colour" style="color:rgba(243, 92, 0, 1);">Softmeet</span><br>Advertiser Hub!</h4>
+            <p>Unlock the Power of Advertisement with <span class="Colour" style="color:rgba(243, 92, 0, 1);">Softmeet</span><br>Are you ready to amplify your brand's reach and engage with your target audience like never before?</p>
+            
+            <div class="Upload_button">
+                <button id="uploadQuoteButton">Upload Ads</button>
+            </div>
+
+            <div class="Get_button">
+                <button id="getQuoteButton">Get a Quote</button>
+            </div>
+
+            <div class="background">
+                <img src="/assets/D.png">
+            </div>
+        </div>
+
+        <!-- The Get a Quote Section -->
+        <div class="Get_a_qoute">
+            <div class="personal_qoute">
+                <p> Get a personal quote.</p>
+                <button id="closeQuoteButton">Close</button>
+            </div>
+            <div class="Select_Qoute">
+                <div class="Choose_upload">
+                    <div class="advert_upload_option">
+                        <div class="choose_update">
+                            <p>Please Choose where you want to upload your Advert</p>
+                        </div>
+                        <div class="radio_buttons">
+                            <input type="radio" id="explorer" name="explorer_status" value="explorer">
+                            <label for="explorer">Explorer</label>
+                            <input type="radio" id="status" name="explorer_status" value="status">
+                            <label for="status">Status</label>
+                        </div>
+                        <div class="adhere">
+                            <p>Please adhere to the file dimensions.</p>
+                        </div>
+                        <div class="dropdown_container">
+                            <div class="plan_select">
+                                <p>Select Premium Plan</p>
+                            </div>
+                            <div class="dropdown">
+                                <label for="selected_value">Selected Value:</label>
+                                <select id="selected_value" name="selected_value">
+                                    <option value="Option 1">Option 1 - Gold</option>
+                                    <option value="Option 2">Option 2 - Silver</option>
+                                    <option value="Option 3">Option 3 - Platinum</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="start_qoate_button">
+                    <button>Start Qoate</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Power of Advertisement Section -->
+        <div class="Power_of_advertisement_container">
+            <div class="unlock_advrtisement">
+                <h2>Unlock the Power of Advertisement</h2>
+                <button id="closeUploadButton">Close</button>
+            </div>
+            <div class="advert_upload_container">
+                <div class="upload_container2">
+                    <div class="choose_where_to_update">
+                        <p>Please Choose where you want to upload your Advert</p>
+                    </div>
+                    <div class="radio_buttons_conainer2">
+                        <input type="radio" id="explorer" name="explorer_status" value="explorer">
+                        <label for="explorer">Explorer</label><br>
+                        <input type="radio" id="status" name="explorer_status" value="status">
+                        <label for="status">Status</label>
+                    </div>
+                    <div class="my_Upload_button2">
+                        <label for="uploadInput" class="uploadLabel">Upload IMG</label>
+                        <input type="file" id="uploadInput" style="display:none;" accept="image/*,video/*">
+                    </div>
+                    <div class="select_container">
+                        <div class="plan_select2">
+                            <p>Select Premium Plan</p>
+                        </div>
+                        <div class="select_down">
+                            <label for="selected_value">Selected Value:</label>
+                            <select id="selected_value" name="selected_value">
+                                <option value="Option 1">Option 1 - Gold</option>
+                                <option value="Option 2">Option 2 - Silver</option>
+                                <option value="Option 3">Option 3 - Platinum</option>
+                            </select>
+                        </div>
+                        <div class="preview_pic">
+                            <img id="previewImage" src="/assets/E.png" alt="Preview" style="max-width: 300px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Overlay Background -->
+        <div class="modal-overlay"></div>
+    </div>
+
+    <!-- JavaScript to control the modals -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get elements
+            const getQuoteButton = document.getElementById('getQuoteButton');
+            const uploadQuoteButton = document.getElementById('uploadQuoteButton');
+            const getQuoteSection = document.querySelector('.Get_a_qoute');
+            const uploadQuoteSection = document.querySelector('.Power_of_advertisement_container');
+            const closeQuoteButton = document.getElementById('closeQuoteButton');
+            const closeUploadButton = document.getElementById('closeUploadButton');
+            const modalOverlay = document.querySelector('.modal-overlay');
+
+            // Function to show modal
+            function showModal(modal) {
+                modal.classList.add('modal-active');
+                modalOverlay.classList.add('modal-active');
+            }
+
+            // Function to hide modal
+            function hideModal(modal) {
+                modal.classList.remove('modal-active');
+                modalOverlay.classList.remove('modal-active');
+            }
+
+            // Show Get a Quote modal when button is clicked
+            getQuoteButton.addEventListener('click', () => {
+                showModal(getQuoteSection);
+            });
+
+            // Show Upload Ads modal when button is clicked
+            uploadQuoteButton.addEventListener('click', () => {
+                showModal(uploadQuoteSection);
+            });
+
+            // Close buttons to hide modals
+            closeQuoteButton.addEventListener('click', () => {
+                hideModal(getQuoteSection);
+            });
+
+            closeUploadButton.addEventListener('click', () => {
+                hideModal(uploadQuoteSection);
+            });
+
+            // Close modal when clicking outside
+            modalOverlay.addEventListener('click', () => {
+                hideModal(getQuoteSection);
+                hideModal(uploadQuoteSection);
+            });
+        });
+    </script>
+
+    <footer>
+        <div class="details">
+            <div class="location_details">
+                <div class="location_icon_1">
+                    <box-icon name='map'></box-icon>
+                </div>
+                <div class="address">
+                    <p>49 DE HAVILLAND CRESCENT, PERSEQUOR</p>
+                </div>
+            </div>
+            <div class="contact_details">
+                <div class="phone_icon">
+                    <box-icon name='phone'></box-icon>
+                </div>
+                <div class="Phone_number">
+                    <p>+27645408815</p>
+                </div>
+            </div>
+        </div>
+        <div class="social_platforms">
+            <div class="facebook_logo">
+                <box-icon name='facebook-circle' type='logo'></box-icon>
+            </div>
+            <div class="linkedIN_logo">
+                <box-icon type='logo' name='linkedin-square'></box-icon>
+            </div>
+            <div class="twitter_logo">
+                <box-icon type='logo' name='twitter'></box-icon>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2022 Softmeet (Pty) Ltd | All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>

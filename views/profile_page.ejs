@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/stylePro.css">
+    <title>Profile Page</title>
+    <style>
+        .form-group { margin-bottom: 15px; }
+        label { font-weight: bold; display: block; margin-bottom: 5px; }
+        input { width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+        .save, .cancel { padding: 10px 20px; background-color: #4CAF50; border: none; color: white; cursor: pointer; border-radius: 5px; }
+        .cancel { background-color: red; }
+    </style>
+</head>
+<body>
+    <div class="details">
+        <h2>Personal Details</h2>
+        <form id="profileForm">
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">New Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+        </form>
+    </div>
+
+    <div class="save-button">
+        <button type="button" class="save" onclick="saveProfile()">Save</button>
+    </div>
+    <div class="cancel-button">
+        <button type="button" class="cancel">Cancel</button>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-app.js";
+        import { getFirestore, doc, getDoc, updateDoc } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-firestore.js";
+        import { getAuth, updatePassword } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js";
+
+        // Firebase config (Make sure this matches your firebaseauth.js)
+        const firebaseConfig = {
+            apiKey: "your-real-api-key",
+            authDomain: "softmeet-advert-68517.firebaseapp.com",
+            projectId: "softmeet-advert-68517",
+            storageBucket: "softmeet-advert-68517.appspot.com",
+            messagingSenderId: "your-real-messaging-sender-id",
+            appId: "your-real-app-id",
+            measurementId: "your-real-measurement-id"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+        const auth = getAuth(app);
+        let user = null;
+
+        // Check if user is authenticated
+        auth.onAuthStateChanged(async (authenticatedUser) => {
+            if (authenticatedUser) {
+                user = authenticatedUser;
+                populateProfile();
+            } else {
+                alert("User is not logged in.");
+            }
+        });
+
+        // Fetch and populate the profile form
+        async function populateProfile() {
+            try {
+                const userDocRef = doc(db, "users", user.uid);
+                const userDoc = await getDoc(userDocRef);
+
+                if (userDoc.exists()) {
+                    const userData = userDoc.data();
+                    document.getElementById('fullName').value = userData.name;
+                    document.getElementById('surname').value = userData.surname;
+                } else {
+                    console.error("User document not found.");
+                }
+            } catch (error) {
+                console.error("Error fetching profile:", error);
+            }
+        }
+
+        // Function to save updated profile details
+        async function saveProfile() {
+            const newName = document.getElementById('fullName').value;
+            const newSurname = document.getElementById('surname').value;
+            const newPassword = document.getElementById('password').value;
+
+            try {
+                // Update the user's name and surname in Firestore
+                const userDocRef = doc(db, "users", user.uid);
+                await updateDoc(userDocRef, {
+                    name: newName,
+                    surname: newSurname
+                });
+
+                // If password is provided, update it
+                if (newPassword) {
+                    await updatePassword(user, newPassword);
+                }
+
+                alert("Profile updated successfully!");
+            } catch (error) {
+                console.error("Error saving profile:", error);
+                alert("Failed to update profile. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>

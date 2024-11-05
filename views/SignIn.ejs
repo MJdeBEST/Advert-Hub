@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <form id="signin-form">
+                <h2>Sign In to Your Account</h2>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <br><br>
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">I Agree to the <u>terms & policy</u></label>
+                <br><br>
+                <button type="submit" style="color: white; font-weight: 600;">Sign In</button>
+                <br><br>
+                <hr>
+                <div class="test">
+                    <label for="account">Don't have an account?</label>
+                    <a href="/SignUp" style="color: blue;">Sign Up</a>
+                </div>
+            </form>
+        </div>
+        <div class="column">
+            <img src="/assets/A.png" alt="picture" width="500" height="680">
+        </div>
+    </div>
+
+    <!-- Import firebaseauth.js to initialize Firebase -->
+    <script type="module" src="/public/firebaseauth.js"></script>
+    <script type="module">
+        import { auth } from '/public/firebaseauth.js';
+        import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.9.3/firebase-auth.js";
+
+        document.getElementById('signin-form').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+
+            try {
+                const userCredential = await signInWithEmailAndPassword(auth, email, password);
+                const user = userCredential.user;
+                alert(`Welcome back, ${user.email}! Redirecting to homepage...`);
+                window.location.href = '/homepage';
+            } catch (error) {
+                console.error("Error during sign-in:", error);
+                alert("Failed to sign in. Please check your credentials and try again.");
+            }
+        });
+    </script>
+</body>
+</html>

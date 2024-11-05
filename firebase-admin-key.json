@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "softmeet-advert-68517",
+  "private_key_id": "344fc287b7796cab885aab293acae52240b1319f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC8zdlhALH7qwcq\n/o6Q035SEJQsIva9Sw6jpkegwcMth2nWoHUUAL/YbbNuukQuCSSmZWYU2DdbBMfZ\nC3/Rq4meT5ccg1VZ9B585PJmQU6Wd3kjRh5UhVAoB/Iv7Pm7cPQQxMMaRyyaSpbP\nKAGBPRUf9RPd0U5WFsPLAxvcfIXFPab5aoDvXe7jT4zxSjiUGlF5bEg3m4pNpUxN\n+j8ZmKwEhdLTKwYoVE2aMQ5Jiu31SOcTb24wvZbKT0iS5h/rminb0h+CpNSnumk+\nrwwykmH4rjbSEl6MrhFOJOMonglfEAwm1GXQ8Op6sEzuiY3yk0IHAQLPLWDCZL8c\nXwEZiS3xAgMBAAECggEACij+sXJm4Y7w1g64T9Fdyx9CxgREqGedXE+iq6M5tF3E\n44yjeEXZDRXMMeF6sUqDKyQqQ+VlxzNg6MxuXrNfNsJ8NIfZxDs3l8t/QuLxTnYT\n8gLAN5ar+1eAIDWds8lOjQd1o1igrRXl+zRhLloB5MQcw1NT5pyXgTmD2o/l5/kD\nOj8aMZhInE2ITvV6sT83TD/ZBvUVPBCK28asBRJ2OktXCFUqRmbtR64SXrPwljm8\nj/YgqJkF92k+/+JRHff/OWUxLrakH5U4Q1GQHOdkaPxjgZYqbTIkWKlZ+gaDFYHV\nnj7jrJ6uurD4j4eUUFv5MFYWMMZi2bbuhLeWbjpqdQKBgQD82WP3jxHcLF+K2vGS\nccsKUD9ifUEZh7DTwY6DSMJm1gAc8LaZ9nQ+lC+iKeahnP8ZS/Q4fHU5Nsz48WJe\nTwz6a+f54NqlmeG8881oqvhiTycI/kLGu+BmaImGgC9WOZ7BwKlvMvSKeHk1f9gJ\nPDObM026zinbvTNzXqgIFe3jLQKBgQC/KCZMWgB1LI5efhcN/btgY0DgFIk1qF+U\nhrhwEg8Hzt1M8iyELiiY5ZHHPO0/EUFqyn+AfWk5obiKdEBNwiTTcImnVelolP+l\nVuOj0oxiPuSCfCqeFh66LD0mlrjEmjAwK7vfg+tBVMmqNJg7mj44q5NN5MV75zYb\nJpQjSrfAVQKBgQCsA5S/sSRcXg+tnl+j2ihgXtGQRlgIb0h79vzmEZS3czTme1gu\ni/zvKc7yCoFtRypA4mxGFV2GS+LMJSNft3XD068gTrlQ2cw5yL7gSxfpgaGzu45g\nNyZlZQ7SYthRV6fKdjCOhuLYZTdIjy3AsqUFG7TwthrB9AhRn36+6XRKDQKBgQCp\nWF1NaLJdG+LobVXpTC5Sfrt7iFXh1k8OmqcMicMNDMNapnSviODoSwBxfFVFePj2\nLXz1DKVKrC17Yu+Qs3zCYEFioCaOQumTxT0X5a/+XW889dkfgcMo9YYbCI2ZhmtI\nUYY3xnuEviOGCOAQdV3IAKAX8qLNWJDDTtMPzOKqnQKBgQDvlcso/u0zPYVCZelG\nVHVh9O0K32rQpD+EAWxDLO44FJA9bQjRChbLNk6jdlTYmHXCT/4zYB31j1Aa6yHr\n5sbjsAvOcdskARQp/X68kMfOK18PpF+0uvkFIfYZJwjQbDAGWtkWcu2DIydcDf/o\nXwwTQVi0bat8EkVDkXItTJStrA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-3t49r@softmeet-advert-68517.iam.gserviceaccount.com",
+  "client_id": "110492825214623434215",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-3t49r%40softmeet-advert-68517.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

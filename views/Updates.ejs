@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=poppins">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 81%;
+    height: 67vh;
+}
+
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+</style>
+
+
+
+</head>
+<body>
+
+    
+  <div class="header">
+    <img src="assets/images/C.png">
+    <div class="navbar">
+
+
+        <div class="Logout">
+            <!-- <img src="./images/logout.png"> -->
+            <box-icon name='log-out'></box-icon>
+            <a href="/new-new">Logout </a>
+        </div>
+        <div class="Profile">
+            <!-- <img src="./images/profile_icon.png"> -->
+            <box-icon name='user'></box-icon>
+            <a href="#">Profile </a>
+        </div>
+
+
+        <!-- <div class="My-updates">
+             <img src="./images/updates_icon.png">
+            <box-icon name='file'></box-icon>
+            <a href="/Updates">My updates </a>
+        </div> -->
+
+
+        <div class="Home">
+            <!-- <img src="./images/Home.png"> -->
+            <box-icon name='home'></box-icon>
+            <a href="#">Home </a>
+        </div>
+
+        <!-- <div class="SignUp">
+            <button id="SignUp"><a href="/signUp">Sign Up </a></button>
+            
+        </div>
+
+        <div class="SignIn">
+            <button id="SignIn"><a href="/SignIn">Sign In</a></button>
+            
+        </div> -->
+
+        
+
+
+    </div>
+</div>
+     
+
+    <div class="background">
+         <img src = "/assets/images/D.jpg" alt="background"  style="height: 95vh; width: 200vh;">
+
+                  <div class ="Updates">
+                      <div class = "UpdatesContent">
+                           
+                      </div>
+
+                     
+
+                      
+<table>
+    <tr>
+      <th>Name of Company/Advert</th>
+      <th>Date Posted</th>
+      <th>Premium Plan</th>
+      <th>Explorer/Status</th>
+      <th>Delete/Edit</th>
+    </tr>
+    <tr>
+      <td>Advert Name</td>
+      <td>2024/04/01 09:00</td>
+      <td>Gold Plan</td>
+      <td>Status</td>
+      <td>
+        <box-icon name='trash' onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;"></box-icon>
+        <box-icon name='leaf'></box-icon>
+    </td>
+     
+    </tr>
+    <tr>
+        <td>Advert Name</td>
+        <td>2024/04/01 09:00</td>
+        <td>Gold Plan</td>
+        <td>Explorer</td>
+        <td>
+            <box-icon name='trash' onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;"></box-icon>
+            <box-icon name='leaf'></box-icon>
+        </td>
+        
+    </tr>
+    <tr>
+        <td>Advert Name</td>
+      <td>2024/04/01 09:00</td>
+      <td>Gold Plan</td>
+      <td>Explorer</td>
+      <td>
+        <box-icon name='trash' onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;"></box-icon>
+        <box-icon name='leaf'></box-icon>
+    </td>
+    
+    </tr>
+    <tr>
+        <td>Advert Name</td>
+      <td>2024/04/01 09:00</td>
+      <td>Gold Plan</td>
+      <td>Status</td>
+      <td>
+        <box-icon name='trash' onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;"></box-icon>
+        <box-icon name='leaf'></box-icon>
+    </td>
+    
+    </tr>
+    <tr>
+        <td>Advert Name</td>
+        <td>2024/04/01 09:00</td>
+        <td>Gold Plan</td>
+        <td>Explorer</td>
+        <td>
+            <box-icon name='trash' onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;"></box-icon>
+            <box-icon name='leaf'></box-icon>
+        </td>
+        
+    </tr>
+    <tr>
+
+    <td>Advert Name</td>
+      <td>2024/04/01 09:00</td>
+      <td>Gold Plan</td>
+      <td>Status</td>
+      <td>
+        <box-icon name='trash' onclick="document.getElementById('id01').style.display='block'" style="cursor: pointer;"></box-icon>
+        <box-icon name='leaf'></box-icon>
+    </td>
+      
+    </tr>
+
+    
+  </table>
+  
+<div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content" action="/action_page.php">
+        <div class="container">
+            <h1>Delete Account</h1>
+            <p>Are you sure you want to <span class="delete-word">delete</span> your account?</p>
+
+        
+            <div class="clearfix">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="deletebtn">Delete</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+
+<div id="myModal" class="modal">
+
+  
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+
+            <div class = "row">
+
+                <div class = "column">
+
+                    <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                        <input type="submit">
+                      </form>
+
+                </div>
+
+
+                <div class="column">
+                    <form>
+                      <div class ="late">
+                        <div class="input-group">
+                            <label for="username">Name:</label>
+                            <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email Address:</label>
+                            <input type="text" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone number:</label>
+                            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="Website">Website:</label>
+                            <input type="text" id="Website" name="Website" placeholder="Enter your website" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="Description">Description:</label>
+                            <input type="text" id="Description" name="Description" placeholder="Enter your description" required>
+                        </div>
+
+                        <label for="Description"><span class="Colour" style="margin-left: 25vh;">Change Payment Method</span></label>
+                      </div>
+                    </form>
+                </div>
+                               
+            </div>                        
+    
+  </div>
+
+
+
+  
+
+
+
+
+
+
+                  </div>
+    </div>
+
+
+
+
+</body>
+<script>
+   
+  var modal = document.getElementById("myModal");
+  
+ 
+  var span = document.getElementsByClassName("close")[0];
+  
+
+  document.getElementById("myBtn").onclick = function() {
+    modal.style.display = "block";
+  }
+  
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+ 
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>

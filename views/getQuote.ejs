@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getQuote</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=poppins">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+<h2>Get a Personal Quote.</h2>
+<form action="/action_page.php">
+    <p>Please select where you want to upload your Advert</p>
+    <input type="radio" id="Explore" name="tab" value="Explore">
+    <label for="Explore">Explore</label><br>
+
+    <input type="radio" id="Status" name="tab" value="Status">
+    <label for="Status">Status</label><br>
+
+    <div class="plans">
+        <h2 style="font-size: 10px;">Please adhere to the file dimensions. Explore only accepts images, no videos for now.</h2>
+        <p>Select Premium plan</p>
+        <select name="plans" id="plans">
+            <option value="gold">Gold</option>
+            <option value="silver">Silver</option>
+            <option value="platinum">Platinum</option>
+        </select>
+    </div>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

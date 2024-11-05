@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=poppins">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+
+footer {
+            text-align: center;
+            padding: 3px;
+            background-color: DarkSalmon;
+            color: white;
+          }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .modal {
+            display: none; 
+            position: fixed; 
+            z-index: 1; 
+            padding-top: 100px; 
+            left: 0;
+            top: 0;
+            width: 100%; 
+            height: 100%; 
+            overflow: auto; 
+            background-color: rgba(0,0,0,0.4); 
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 18px;
+            border: 1px solid #888;
+            width: 75%;
+            height: 38vh;
+        }
+        .Quote h2{
+            top:10vh;
+        }
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        /* #quoteFormContainer {
+            display: none;
+        } */
+        .styling .column{
+            border: 2px solid black; /* Add border style to the container */
+            padding: 20px; /* Add padding */
+            margin-top: 20px;
+        }
+        section {
+            height: 100vh; /* Make each section fill the entire viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; /* Add background color */
+            text-align: center;
+        }
+        .bordered-row {
+            border: 2px solid black; /* Add border style */
+            padding: 20px; /* Add some padding */
+        }
+        .Quote {
+            margin: 0 auto; /* Center the content horizontally */
+            max-width: 600px; 
+           
+        }
+        .plans {
+            margin-top: 10px; /* Add margin to separate from previous element */
+        }
+        .PremiumPlan {
+            margin-top: 10px; /* Add margin to separate from previous element */
+        }
+        .lg1 a{
+            margin-top: 18px;
+            margin-left: 48px;
+    padding: 14px;
+
+        }
+        .btn-log .button3{
+            position: fixed;
+            margin-left: 101vh;
+            margin-top: -26px;
+        }
+        .btn-log .button4{
+            position: fixed;
+            margin-left: 76vh;
+            margin-top: -26px;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="/assets/images/C.png">
+        <div class="lg1">
+            
+            <!-- <a href="#"><i class="fa fa-fw fa-home"></i>Home</a>  
+            <a href="/Updates" id="myBtn"><i class="fa fa-fw fa-search"></i>My adverts</a>
+            <a href="#"><i class="fa fa-fw fa-file"></i>Profile</a>  -->
+
+            
+    <a href="#"><i class="fa fa-fw fa-home"></i>Home</a> 
+    <a href="#"><i class="fa fa-fw fa-search"></i></i>My adverts</a> 
+    <a href="#"><i class="fa fa-fw fa-envelope"></i></i>Update</a> 
+
+            <div class="btn-log">
+             <a href ="/SignIn" ><button class="button3" id="SignIn"><a href = "SignIn">SignIn</a></button>
+             <button class="button4" ><a href ="/signUp">SignUp</a></button>
+
+            </div>
+            
+        </div>
+    </div>
+
+    <section id="">
+       
+            <div class="column">
+                <div class="Container_homepage">
+                    <div class="homepageContainerContent">
+                        <h4>Welcome to<br><span class="Colour">Softmeet</span><br>Advertiser Hub!</h4>
+                        <label for="Advertiser">Unlock the Power of Advertisement with <span class="Colour">Softmeet</span><br></label>
+                        <label for="Advertiser">Are you ready to amplify your brand's reach and engage with your target audience like never before? 
+                            <ul> 
+                                Look no further! We're thrilled to welcome you to our advertiser Hub, the one-stop destination for unlocking the full potential of advertising on Softmeet.
+                            </ul>
+                        </label>
+                        <div class="button-container" >
+                            <button class="button1" id="uploadBtn"><a href ="#addFormContainer">Upload Ads</a></button>
+                            <button class="button2" id="quoteBtn"><a href="#quoteFormContainer">Get A Quote</a></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <img src="assets/images/D.png" alt="picture" width="404" height="373">
+            </div>
+        
+    
+</section>
+
+
+
+
+    
+<section id="quoteFormContainer">
+
+    <h2>Get a Personal Quote.</h2>
+            <div class = "btlog">
+
+
+                                            
+            <div class="row">
+
+                <div class="column "> 
+                    <div class="adverts">
+                        <p>Please select where you want to upload your Advert</p>
+                        <input type="radio" id="Explore" name="tab" value="Explore">
+                        <label for="Explore">Explore</label><br>
+                        <input type="radio" id="Status" name="tab" value="Status">
+                        <label for="Status">Status</label><br>
+                        <h2 style="font-size: 10px;margin-left: 3px;padding: 24px;">Please adhere to the file dimensions. </h2>
+                    </div>
+                </div>
+
+                <div class="column "> 
+
+                    <div class="PremiumPlan">
+                                    <p>Select Premium plan</p>
+                                    <select name="plans" id="plans">
+                                        <option value="Select">Select value</option>
+                                        <option value="gold">Gold</option>
+                                        <option value="silver">Silver</option>
+                                        <option value="platinum">Platinum</option>
+                                    </select>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+          
+
+
+
+            <div class="btnQuote">
+                <button onclick="openModal()">Start Quote</button>
+              </div>
+
+              <div id="myModal" class="modal">
+
+               
+                <div class="modal-content">
+                  <span class="close" onclick="closeModal()">&times;</span>
+                 <h2>Quote generated</h2>
+                 <p style="margin-top: -67vh;">Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit.<br> Blanditiis nemo minima ut quos ullam quibusdam repellendus doloribus.<br> Ratione quam soluta amet placeat, <br>enim sunt tenetur quo ipsa architecto a sed!</p>
+                
+                 <h2>Your Personal price</h2>
+                </div>
+              
+              </div>
+
+
+
+    
+        
+
+     
+
+    
+
+
+</section>
+
+
+    
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="row">
+                <div class="column">
+                    <form action="/action_page.php">
+                        <input type="file" id="myFile" name="filename">
+                        <input type="submit">
+                    </form>
+                </div>
+                <div class="column">
+                    <form>
+                        <div class="input-group">
+                            <label for="username">Name:</label>
+                            <input type="text" id="username" name="username" placeholder="Enter your name" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email Address:</label>
+                            <input type="text" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Phone number:</label>
+                            <input type="text" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="Website">Website:</label>
+                            <input type="text" id="Website" name="Website" placeholder="Enter your website" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="Description">Description:</label>
+                            <input type="text" id="Description" name="Description" placeholder="Enter your description" required>
+                        </div>
+                        <label for="Description"><span class="Colour" style="margin-left: 25vh;">Change Payment Method</span></label>
+                    </form>
+                </div>
+            </div>                        
+        </div>
+    </div>
+
+<section id = "addFormContainer">
+
+  
+            <h3>Unlock the power of Advertisement</h3>
+
+            <div class ="last-lg">
+            <p>Please select where you want to upload your Advert</p>
+                        <input type="radio" id="Explore" name="tab" value="Explore">
+                        <label for="Explore">Explore</label><br>
+                        <input type="radio" id="Status" name="tab" value="Status">
+                        <label for="Status">Status</label><br>
+             </div>   
+             <div class = "loadImg">
+             <button>Upload Img</button>
+             </div>
+
+             <div class = "pp-plan">
+             <p>Select Premium plan</p>
+             <select name="plans" id="plans">
+                 <option value="Select">Select value</option>
+                 <option value="gold">Gold</option>
+                 <option value="silver">Silver</option>
+                 <option value="platinum">Platinum</option>
+             </select>
+
+             </div>
+
+
+             
+</section>
+
+    <footer>
+        <p>49 DE HAVILLANDCRESCENT,<br>PERSEQUOR</p>
+    </footer>
+    
+
+    <script>
+        var modal = document.getElementById("myModal");
+        var span = document.getElementsByClassName("close")[0];
+        document.getElementById("myBtn").onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+
+        window.addEventListener('scroll', function() {
+            var buttonsContainer = document.getElementById('buttonsContainer');
+            var quoteFormContainer = document.getElementById('quoteFormContainer');
+
+            // Check if the user scrolled to the second section
+            if (window.scrollY >= quoteFormContainer.offsetTop) {
+                // Hide the buttons
+                buttonsContainer.style.display = 'none';
+            } else {
+                // Show the buttons
+                buttonsContainer.style.display = 'block';
+            }
+        });
+    </script>
+
+<script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    
+    // Get the button that opens the modal
+    var btn = document.querySelector('.btnQuote button');
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on the button, open the modal
+    function openModal() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    function closeModal() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1948 @@
+/* mobile */
+* {
+    padding: 0;
+    margin: 2px;
+    font-family: sans-serif;
+}
+
+.Power_of_advertisement_container {
+    top: 5%;
+    width: 90%;
+    left: 5%;
+    height: auto;
+}
+
+.unlock_advrtisement {
+    position: absolute;
+    width: fit-content;
+    height: 44px;
+    top: 20px;
+    left: 15px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.advert_upload_container {
+    position: absolute;
+    width: 100%;
+    height: 420px;
+    top: 51px;
+    gap: 10px;
+}
+
+.upload_container2 {
+    position: absolute;
+    position: absolute;
+    left: 65px;
+    top: 4%;
+    width: 1123px;
+    height: 373px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.choose_where_to_update {
+    position: absolute;
+    width: 340px;
+    height: fit-content;
+    gap: 0px;
+    opacity: 0px;
+    left: 0%;
+    top: 77px;
+}
+
+.choose_where_to_update p {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+.my_Upload_button2 button {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: center;
+    border: none;
+    color: rgba(255, 106, 29, 1);
+
+}
+
+/* ----------------------------------------------------------------- */
+.select_container {
+    position: absolute;
+    width: 245px;
+    height: 76px;
+    top: 223px;
+
+
+}
+
+.plan_select2 {
+    width: 155px;
+    height: 22px;
+
+}
+
+.plan_select2 p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.select_down {
+    position: absolute;
+    width: Fixed (245px)px;
+    height: Hug (44px)px;
+    top: 32px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.select_down label {
+    width: 112px;
+    height: 22px;
+}
+
+.select_down select {
+    width: Fixed (245px)px;
+    height: Hug (44px)px;
+    top: 32px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.select_down option {
+    font-size: 14px;
+}
+
+.select_down option:hover {
+    background-color: rgb(231, 139, 231);
+}
+
+
+
+.radio_buttons_conainer2 {
+    position: absolute;
+    width: fit-content;
+    height: Hug 54px;
+    top: 32px;
+    gap: 10px;
+    opacity: 0px;
+    margin-top: 75px;
+
+
+}
+
+.radio_buttons_conainer2 label {
+
+
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.radio_buttons_conainer2 input[type="radio"] {
+    width: 15px;
+    height: 15px;
+
+}
+
+
+
+
+.my_Upload_button2 {
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    top: 170px;
+    left: 10px;
+    padding: 8px 10px 8px 11px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 106, 29, 1)
+}
+
+.advert_upload_container {
+    width: 90%;
+    height: auto;
+    top: 10px;
+    left: 5%;
+}
+
+.upload_container2 {
+    left: 5px;
+    top: 5px;
+    width: 90%;
+    height: auto;
+}
+
+.preview_pic {
+    position: absolute;
+    width: 473px;
+    height: 274px;
+    top: 180px;
+    left: -15px;
+    background-color: black;
+
+}
+
+.Display_content {
+    position: absolute;
+    background-color: black;
+    width: 300px;
+    height: 150px;
+    top: 60px;
+    left: -5px;
+    border-radius: 0px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid #C4C4C4
+}
+
+.display_text {
+    position: absolute;
+    width: 201px;
+    height: 87px;
+    top: 28px;
+    left: 56px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+
+
+}
+
+.display_text h1 {
+    position: absolute;
+    width: 200px;
+    height: 86px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 86px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+#Logout {
+    width: fit-content;
+    position: relative;
+    text-align: center;
+    top: 4px;
+    left: 262px;
+}
+
+#Logout img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -138%;
+    left: 10%;
+}
+
+#Logout a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+    left: 5%;
+}
+
+
+#Profile {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 173px;
+}
+
+
+
+#Profile img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -135%;
+
+}
+
+#Profile a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+
+}
+
+
+#My-updates {
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 86px;
+
+
+}
+
+#My-updates img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -135%;
+    left: 10%;
+}
+
+#My-updates a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+    left: 5%;
+}
+
+#Home {
+    width: fit-content;
+    position: absolute;
+    text-align: center;
+    top: 5%;
+    left: 20px;
+
+}
+
+#Home img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -135%;
+    left: 10%;
+}
+
+#Home a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+    left: 5%;
+}
+
+.preview_uploder_button {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 87vh;
+    left: 120px;
+}
+
+.preview_uploder_button button {
+    position: relative;
+    height: 22px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 88px;
+    text-align: center;
+    border: none;
+    background: rgba(243, 92, 0, 1);
+    color: white;
+}
+
+.Upload_button {
+    position: absolute;
+    width: 178px px;
+    height: 58px px;
+    top: 492px;
+    left: 215px;
+
+}
+
+.Upload_button button {
+    padding: 18px 44px 18px 44px;
+    gap: 0px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(255, 104, 29, 0.993);
+    color: rgba(255, 104, 29, 0.486);
+    left: 200px;
+    top: 500px;
+}
+
+/* tablet */
+@media screen and (max-width: 702px) {
+
+    .header {
+        height: 50px;
+    }
+
+    .header img {
+        width: 105px;
+        left: 12%;
+        transform: translateX(-50%);
+        top: 5px;
+        height: 31px;
+    }
+
+    .navbar {
+        width: 262px;
+        position: absolute;
+        left: 377px;
+        top: -3px;
+    }
+
+    .address {
+        left: 10px;
+    }
+
+    .SignIn button,
+    .SignUp button {
+        left: calc(100% - 80px);
+    }
+
+    .preview_uploader_button {
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    footer {
+        top: 122%;
+    }
+
+    .copyright {
+        left: 4%;
+    }
+
+    .background {
+        left: 15%;
+        width: 17%;
+        top: -2%;
+    }
+
+    .background img {
+
+        width: 324%;
+        height: auto;
+        position: absolute;
+    }
+
+    .details,
+    .contact_details,
+    .social_platforms,
+    .copyright {
+        left: 20%;
+    }
+
+    .Container_homepage {
+        height: 123%;
+        top: 8%;
+    }
+
+    .homepageContainerContent {
+        margin-left: 2%;
+        width: 90%;
+    }
+
+    .Upload_button {
+        top: 77%;
+        left: 10%;
+    }
+
+    .Get_button {
+        top: 77%;
+        left: 45%;
+    }
+
+    .homepageContainerContent h4 {
+        font-size: 57px;
+        left: 5%;
+        top: 29%;
+        width: auto;
+        position: absolute;
+    }
+
+    .homepageContainerContent p {
+        font-size: 16px;
+        top: 60%;
+        left: 5%;
+    }
+
+    .Power_of_advertisement_container {
+        top: 5%;
+        width: 90%;
+        left: 5%;
+        height: auto;
+    }
+
+    .advert_upload_container,
+    .upload_container2,
+    .preview_pic,
+    .modal {
+        width: 90%;
+        left: 5%;
+    }
+
+    .advert_upload_container,
+    .upload_container2,
+    .modal {
+        height: auto;
+    }
+
+    .preview_pic {
+        top: 100%;
+    }
+
+    .modal {
+        top: 5%;
+        height: 80%;
+    }
+}
+
+@media (width: 375px) and (height:667px) {
+    
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 95px;
+        left: -15px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+
+    .preview_uploder_button button {
+        position: relative;
+        height: 22px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        width: 88px;
+        text-align: center;
+        border: none;
+        background: rgba(243, 92, 0, 1);
+        color: white;
+    }
+
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+}
+
+@media (width:414px) and (height:896px) {
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 130px;
+        left: -5px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 69vh;
+        left: 126px;
+    }
+}
+
+@media (width:390px)  {
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 120px;
+        left: -13px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 70vh;
+        left: 120px;
+    }
+
+    
+}
+
+@media (width:430px) {
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+    * {
+        padding: 0;
+        margin: 2px;
+        font-family: sans-serif;
+    }
+
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 120px;
+        left: -14px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 64vh;
+        left: 120px;
+    }
+}
+
+@media (width:360px) {
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 120px;
+        left: -5px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 82vh;
+        left: 120px;
+    }
+}
+
+@media (width:412px) {
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 120px;
+        left: -9px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 66vh;
+        left: 120px;
+    }
+}
+
+@media (width:768px) {
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 60px;
+        left: 87px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_pic {
+        position: absolute;
+        width: 473px;
+        height: 274px;
+        top: 197px;
+        left: -15px;
+        background-color: black;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 71vh;
+        left: 169px;
+    }
+
+
+
+
+}
+
+@media (width:820px) {
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .preview_pic {
+        position: absolute;
+        width: 473px;
+        height: 274px;
+        top: 195px;
+        left: 0px;
+        background-color: black;
+    }
+
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 60px;
+        left: 85px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 61vh;
+        left: 167px;
+    }
+}
+
+@media (width:1024px) and (height:1366px) {
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 60px;
+        left: 81px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_pic {
+        position: absolute;
+        width: 473px;
+        height: 274px;
+        top: 195px;
+        left: -15px;
+        background-color: black;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 53vh;
+        left: 185px;
+    }
+}
+
+@media (width:912px) {
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 60px;
+        left: 85px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_pic {
+        position: absolute;
+        width: 473px;
+        height: 274px;
+        top: 195px;
+        left: -15px;
+        background-color: black;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 53vh;
+        left: 166px;
+    }
+}
+
+@media (width:540px) {
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 120px;
+        left: -5px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 82vh;
+        left: 131px;
+    }
+}
+
+@media (width:344px) {
+    .display_text h1 {
+        position: absolute;
+        width: 200px;
+        height: 86px;
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 86px;
+        text-align: center;
+        background: black;
+        color: white;
+        border: 1px solid white;
+    }
+
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 120px;
+        left: -5px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 68vh;
+        left: 120px;
+    }
+
+
+
+}
+
+@media (width:853px) {
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 60px;
+        left: 85px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_pic {
+        position: absolute;
+        width: 473px;
+        height: 274px;
+        top: 200px;
+        left: -15px;
+        background-color: black;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 56vh;
+        left: 165px;
+    }
+}
+
+@media (width:1024px) and (height:600px) {
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 60px;
+        left: 84px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 117vh;
+        left: 155px;
+    }
+
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+}
+
+@media (width:1280px) {
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+    .preview_pic {
+        position: absolute;
+        width: 473px;
+        height: 274px;
+        top: 195px;
+        left: -15px;
+        background-color: black;
+    }
+
+    .Display_content {
+        position: absolute;
+        background-color: black;
+        width: 300px;
+        height: 150px;
+        top: 60px;
+        left: 85px;
+        border-radius: 0px 0px 0px 0px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        border: 1px solid #C4C4C4;
+    }
+
+    .preview_uploder_button {
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        top: 90vh;
+        left: 166px;
+    }
+}
+@media (width:320px)
+{
+    .my_Upload_button2 button {
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        border: none;
+        color: rgba(255, 106, 29, 1);
+    }
+
+}
+
+@media screen and (max-width:351px) {
+    .header {
+        height: 50px;
+    }
+
+    .header img {
+
+        width: 173px;
+        left: 25%;
+        top: 1vh;
+    }
+
+
+
+    .navbar {
+        display: none;
+        left: 10px;
+        top: 5px;
+    }
+
+    .address {
+        left: 10px;
+    }
+
+    .Logout,
+    .Profile,
+    .My-updates,
+    .Home {
+        display: none;
+    }
+
+    .SignIn button,
+    .SignUp button {
+        left: 80%;
+    }
+
+    .preview_uploader_button {
+        left: 10%;
+        top: 50%;
+    }
+
+    footer {
+        top: 140%;
+    }
+
+
+
+    .copyright {
+        left: 4%;
+    }
+
+    .background {
+        left: 5%;
+        width: 20%;
+    }
+
+    .background img {
+        position: absolute;
+        top: -17%;
+        left: 27%;
+        width: 350%;
+        height: 57%;
+    }
+
+
+    .details,
+    .contact_details,
+    .social_platforms {
+        left: 20%;
+    }
+
+    .Container_homepage {
+        height: 123%;
+        top: 14%;
+
+    }
+
+    .homepageContainerContent {
+        margin-left: 2%;
+        top: 2px;
+        width: 62%;
+    }
+
+    .Upload_button {
+        top: 77%;
+        left: 117px;
+    }
+
+    .Get_button {
+        top: 88%;
+        left: 113px;
+    }
+
+    .homepageContainerContent h4 {
+
+        font-size: 191%;
+        left: 5%;
+        top: 27%;
+        position: absolute;
+        width: fit-content;
+
+    }
+
+    .homepageContainerContent p {
+        width: fit-content;
+        font-size: 11px;
+        position: absolute;
+        top: 54%;
+        left: 5%;
+    }
+
+
+    .Power_of_advertisement_container {
+        top: 5%;
+        width: 90%;
+        left: 5%;
+        height: auto;
+    }
+
+    .advert_upload_container {
+        width: 90%;
+        height: auto;
+        top: 10px;
+        left: 5%;
+    }
+
+    .upload_container2 {
+        left: 10px;
+        top: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+    .preview_pic {
+        width: 90%;
+        height: auto;
+        top: 100%;
+        left: 5%;
+    }
+
+    .modal {
+        top: 5%;
+        width: 90%;
+        height: 80%;
+    }
+}
+
+/* ///////////////////////////////////////////////////////////// */
+
+
+
+@media screen and (max-width:320px) {
+    .header {
+        height: 50px;
+    }
+
+    .header img {
+
+        width: 135px;
+        left: 25%;
+        top: 1%;
+    }
+
+
+
+    .navbar {
+        display: none;
+        left: 10px;
+        top: 5px;
+    }
+
+    .address {
+        left: 10px;
+    }
+
+    .Logout,
+    .Profile,
+    .My-updates,
+    .Home {
+        display: none;
+    }
+
+    .SignIn button,
+    .SignUp button {
+        left: 80%;
+    }
+
+    .preview_uploader_button {
+        left: 10%;
+        top: 50%;
+    }
+
+    footer {
+        top: 88%;
+    }
+
+
+
+    .copyright {
+        left: 4%;
+    }
+
+    .background {
+        left: 5%;
+        width: 20%;
+    }
+
+    .background img {
+        position: absolute;
+        top: -17%;
+        left: 27%;
+        width: 340%;
+        height: 57%;
+    }
+
+
+    .details,
+    .contact_details,
+    .social_platforms {
+        left: 20%;
+    }
+
+    .Container_homepage {
+        height: 76%;
+        top: 10%;
+
+    }
+
+    .homepageContainerContent {
+        margin-left: 2%;
+        top: 2px;
+        width: 62%;
+    }
+
+    .Upload_button {
+        top: 75%;
+        left: 80px;
+    }
+
+    .Get_button {
+        top: 89%;
+        left: 78px;
+    }
+
+    .homepageContainerContent h4 {
+
+        font-size: 165%;
+        left: 5%;
+        top: 24%;
+        position: absolute;
+        width: fit-content;
+
+    }
+
+    .homepageContainerContent p {
+        width: fit-content;
+        font-size: 9px;
+        position: absolute;
+        top: 54%;
+        left: 5%;
+    }
+
+
+    .Power_of_advertisement_container {
+        top: 5%;
+        width: 90%;
+        left: 5%;
+        height: auto;
+    }
+
+    .advert_upload_container {
+        width: 90%;
+        height: auto;
+        top: 10px;
+        left: 5%;
+    }
+
+    .upload_container2 {
+        left: 10px;
+        top: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+    .preview_pic {
+        width: 90%;
+        height: auto;
+        top: 100%;
+        left: 5%;
+    }
+
+    .modal {
+        top: 5%;
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .header {
+        height: 50px;
+    }
+
+    .header img {
+
+        width: 173px;
+        left: 25%;
+    }
+
+
+
+    .navbar {
+        display: none;
+        left: 10px;
+        top: 5px;
+    }
+
+    .address {
+        left: 10px;
+    }
+
+    .Logout,
+    .Profile,
+    .My-updates,
+    .Home {
+        display: none;
+    }
+
+    .SignIn button,
+    .SignUp button {
+        left: 80%;
+    }
+
+    .preview_uploader_button {
+        left: -90%;
+        top: 20%;
+
+
+    }
+
+    footer {
+        top: 158%;
+    }
+
+    .copyright {
+        left: 4%;
+    }
+
+    .background {
+        left: 5%;
+        width: 20%;
+    }
+
+    .background img {
+        position: absolute;
+        top: 3%;
+        left: 27%;
+        width: 335%;
+        height: 58%;
+    }
+
+
+    .details,
+    .contact_details,
+    .social_platforms {
+        left: 20%;
+    }
+
+    .Container_homepage {
+        height: 153%;
+        top: 10%;
+
+    }
+
+    .homepageContainerContent {
+        margin-left: 2%;
+        width: 62%;
+    }
+
+    .Upload_button {
+        top: 78%;
+        left: 189px;
+    }
+
+    .Get_button {
+        top: 89%;
+        left: 189px;
+    }
+
+    .homepageContainerContent h4 {
+
+        font-size: 279%;
+        left: 5%;
+        top: 32%;
+
+    }
+
+    .homepageContainerContent p {
+        width: fit-content;
+        font-size: 16px;
+        position: absolute;
+        top: 58%;
+        left: 5%;
+    }
+
+
+
+
+    .preview_pic {
+        width: 90%;
+        height: auto;
+        top: 100%;
+        left: 5%;
+    }
+
+    .modal {
+        top: 5%;
+        width: 90%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .header {
+        height: 60px;
+    }
+
+    .header img {
+
+        width: 173px;
+        left: 25%;
+        top: 1vh;
+    }
+
+
+
+    .navbar {
+        display: none;
+        left: 10px;
+        top: 5px;
+    }
+
+    .address {
+        left: 10px;
+    }
+
+    .Logout,
+    .Profile,
+    .My-updates,
+    .Home {
+        display: none;
+    }
+
+    .SignIn button,
+    .SignUp button {
+        left: 80%;
+    }
+
+    .preview_uploader_button {
+        position: absolute;
+        left: 67vh;
+        top: 357px;
+        padding: 30px, 50px, 30px, 50px;
+        width: 110px;
+        height: 38px;
+
+        footer {
+            top: 158%;
+        }
+
+
+
+        .copyright {
+            left: 4%;
+        }
+
+        .background {
+            left: 5%;
+            width: 20%;
+        }
+
+        .background img {
+            position: absolute;
+            top: -17%;
+            left: 27%;
+            width: 350%;
+            height: 57%;
+        }
+
+
+        .details,
+        .contact_details,
+        .social_platforms {
+            left: 20%;
+        }
+
+        .Container_homepage {
+            height: 153%;
+            top: 10%;
+
+        }
+
+        .homepageContainerContent {
+            margin-left: 2%;
+            top: 2px;
+            width: 62%;
+        }
+
+        .Upload_button {
+            top: 72%;
+            left: 117px;
+        }
+
+        .Get_button {
+            top: 83%;
+            left: 113px;
+        }
+
+        .homepageContainerContent h4 {
+
+            font-size: 191%;
+            left: 5%;
+            top: 29%;
+            position: absolute;
+            width: fit-content;
+
+        }
+
+        .homepageContainerContent p {
+            width: fit-content;
+            font-size: 11px;
+            position: absolute;
+            top: 54%;
+            left: 5%;
+        }
+
+
+        .Power_of_advertisement_container {
+            top: 5%;
+            width: 90%;
+            left: 5%;
+            height: auto;
+        }
+
+        .advert_upload_container {
+            width: 90%;
+            height: auto;
+            top: 10px;
+            left: 5%;
+        }
+
+        .upload_container2 {
+            left: 10px;
+            top: 10px;
+            width: 90%;
+            height: auto;
+        }
+
+        .preview_pic {
+            width: 90%;
+            height: auto;
+            top: 100%;
+            left: 5%;
+        }
+
+        .modal {
+            top: 5%;
+            width: 90%;
+            height: 80%;
+        }
+    }
+
+
+   
+}
+
+@media screen and (max-width:375px) {
+
+
+    .header {
+        height: 50px;
+    }
+
+    .header img {
+
+        width: 173px;
+        left: 25%;
+        top: 1vh;
+    }
+
+
+
+    .navbar {
+        display: none;
+        left: 10px;
+        top: 5px;
+    }
+
+    .address {
+        left: 10px;
+    }
+
+    .Logout,
+    .Profile,
+    .My-updates,
+    .Home {
+        display: none;
+    }
+
+    .SignIn button,
+    .SignUp button {
+        left: 80%;
+    }
+
+    .preview_uploader_button {
+        position: absolute;
+        left: 67vh;
+        top: 357px;
+        width: 110px;
+        height: 38px;
+
+    }
+
+    footer {
+        top: 122%;
+    }
+
+
+
+    .copyright {
+        left: 4%;
+    }
+
+    .background {
+        left: 5%;
+        width: 20%;
+    }
+
+    .background img {
+        position: absolute;
+        top: -22%;
+        left: 27%;
+        width: 339%;
+        height: 45%;
+    }
+
+
+    .details,
+    .contact_details,
+    .social_platforms {
+        left: 20%;
+    }
+
+    .Container_homepage {
+        height: 123%;
+        top: 14%;
+
+    }
+
+    .homepageContainerContent {
+        margin-left: 2%;
+        top: 2px;
+        width: 62%;
+    }
+
+    .Upload_button {
+        top: 67%;
+        left: 117px;
+    }
+
+    .Get_button {
+        top: 78%;
+        left: 113px;
+    }
+
+    .homepageContainerContent h4 {
+
+        font-size: 222%;
+        left: 5%;
+        top: 19%;
+        position: absolute;
+        width: fit-content;
+    }
+
+    .homepageContainerContent p {
+        width: fit-content;
+        font-size: 14px;
+        position: absolute;
+        top: 44%;
+        left: 5%;
+    }
+
+
+    .Power_of_advertisement_container {
+        top: 5%;
+        width: 90%;
+        left: 5%;
+        height: auto;
+    }
+
+    .advert_upload_container {
+        width: 90%;
+        height: auto;
+        top: 10px;
+        left: 5%;
+    }
+
+    .upload_container2 {
+        left: 10px;
+        top: 10px;
+        width: 90%;
+        height: auto;
+    }
+
+    .preview_pic {
+        width: 90%;
+        height: auto;
+        top: 100%;
+        left: 5%;
+    }
+
+    .modal {
+        top: 5%;
+        width: 90%;
+        height: 80%;
+    }
+}

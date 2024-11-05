@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company-Details</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=poppins">
+
+
+</head>
+<body>
+
+        
+<div class="navbar">
+    <img src = "/assets/images/C.png">"
+
+    <a href="#"><ul><i class="fa fa-fw fa-home"></ul></i>logout</a> 
+    <a href="#"><ul><i class="fa fa-fw fa-search"></i></ul></i> Update</a> 
+    <a href="#"><ul><i class="fa fa-fw fa-envelope"></i></ul></i>Profile</a> 
+  
+  </div>
+     
+
+    <div class="background">
+         <img src = "/assets/images/D.jpg" alt="background"  style="height: 95vh; width: 200vh;">
+
+                  <div class ="Container-2nd">
+                      <div class = "ContainerContent-2nd">
+
+                                <h2 style="margin-top:46vh"><u>Company-Details</u></h2>
+                                
+                                <input type="text" id="Cname" name="Cname" placeholder="Enter your Company Name" required>
+                                <input type="text" id="Email" name="Email" placeholder="Enter your Email" required>
+                                <input type="text" id="Phone" name="Phone" placeholder="Enter your Phone" required>
+                                <input type="text" id="Website" name="Website" placeholder="Enter your Website(Optional)" required>
+                              
+                                <div style="position: relative;">
+                                    <input type="text" id="Logo" name="Logo" placeholder="Enter your Company Logo" required>
+                                    <box-icon name='download' style="position: absolute; right: 40px; top: 50%; transform: translateY(-50%); color: black;"></box-icon>
+                                    <button id="myBtn" style="position: absolute; right: 29px; top: 12px; width: 12vh;">Browse</button>
+
+                                    <div id="myModal" class="modal">
+
+
+                                        <div class="modal-content">
+                                          <span class="close">&times;</span>
+                                          <p><u>How to Upload</u></p>
+
+
+                                          
+                                              <form action="/action_page.php">
+                                                <p>Click which media do you want to upload</p>
+                                              <input type="radio" id="status" name="fav1" value="status">
+                                              <label for="html">Status</label><br>
+                                              <input type="radio" id="Explorer" name="fav1" value="Explorer">
+                                              <label for="Explorer">Explorer</label><br>
+                                              </form>
+
+
+                                            <div class = "UploadMedia">
+
+
+                                            </div>
+
+                                          
+
+
+
+
+                                        </div>
+                                      
+                                      </div>
+                                </div>
+                                
+
+                                <input type="text" id="Description" name="Description" placeholder="Enter your Brief Description" required>
+                            
+
+                                
+
+
+                               
+
+
+
+                      </div>
+                                <div class ="btn-lg" >
+                                        <button>
+                                            Next
+                                        </button>
+                                </div>
+
+                  </div>
+    </div>
+
+
+    
+</body>
+
+<script>
+    var modal = document.getElementById("myModal");
+    
+
+    var btn = document.getElementById("myBtn");
+    
+ 
+    var span = document.getElementsByClassName("close")[0];
+    
+
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    </script>
+    
+
+
+
+<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</html>

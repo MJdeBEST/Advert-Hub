@@ -1,0 +1,989 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+
+.header {
+    width: 100%;
+    height: 105px;
+    /* background-color: rgb(231, 162, 162); */
+    position: absolute;
+    box-shadow: 0px 0px 16px 0px rgba(30, 31, 36, 0.25);
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+.header img {
+    width: fit-content;
+    height: 45px;
+    left: 40px;
+    top: 22px;
+    position: absolute;
+}
+
+.navbar {
+    width: fit-content;
+    position: absolute;
+    left: 1375px;
+    top: 45px;
+}
+
+.Logout {
+    position: relative;
+    text-align: center;
+    top: -5px;
+}
+
+.Logout img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -138%;
+    left: 10%;
+}
+
+.Logout a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+    left: 5%;
+}
+
+
+.Profile {
+    position: absolute;
+    text-align: center;
+    top: -13%;
+    left: -140%;
+
+}
+
+.Profile img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -135%;
+    left: 10%;
+}
+
+.Profile a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+    left: 5%;
+}
+
+
+.My-updates {
+    position: absolute;
+    text-align: center;
+    top: -13%;
+    left: -350%;
+
+}
+
+.My-updates img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -135%;
+    left: 10%;
+}
+
+.My-updates a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+    left: 5%;
+}
+
+.Home {
+    position: absolute;
+    text-align: center;
+    top: -13%;
+    left: -500%;
+
+}
+
+.Home img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    top: -135%;
+    left: 10%;
+}
+
+.Home a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    top: 5%;
+    left: 5%;
+}
+
+
+.SignIn button {
+    color: white;
+    border: 1px solid orange;
+    position: absolute;
+    text-align: center;
+    top: -13%;
+    left: 280%;
+    background-color: orange;
+    width: 7vh;
+    padding: 8px 28px 8px 28px;
+    border-radius: 3px;
+
+}
+
+.Upload button {
+    position: absolute;
+    width: 131px;
+    height: 41px;
+    top: 55vh;
+    left: 66vh;
+    padding: 8px 10px 8px 11px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: orange;
+    border: 1px solid rgba(255, 106, 29, 1);
+    color: white;
+}
+
+
+
+
+
+
+.SignUp button {
+    border: 1px solid orange;
+    border-radius: 3px;
+    position: absolute;
+    text-align: center;
+    top: -13%;
+    left: 126%;
+    background-color: white;
+    color: orange;
+    border-radius: 2px;
+    padding: 2px 8px;
+    width: 7vh;
+
+}
+
+
+.background {
+    position: absolute;
+    top: 9%;
+    left: 60%;
+    width: fit-content;
+    height: 60%;
+}
+
+.Container_homepage {
+    position: absolute;
+    width: 100%;
+    height: 567px;
+    top: 110px;
+    background: rgba(254, 252, 251, 1);
+    font-family: sans-serif;
+
+}
+
+.homepageContainerContent {
+    font-size: 100%;
+    margin-top: 2vh;
+    margin-left: 4%;
+    left: 0%;
+    text-align: left;
+    /* Align the text to the right */
+}
+
+.homepageContainerContent h4 {
+    width: fit-content;
+    font-size: 405%;
+    opacity: 80%;
+    margin-top: 6vh;
+    margin-left: 0%;
+    left: 0%;
+    line-height: 113%;
+
+}
+
+.homepageContainerContent p {
+    width: fit-content;
+    font-size: 99%;
+    margin-top: 1vh;
+    margin-left: 0%;
+    left: 0%;
+    line-height: 90%;
+}
+
+.Upload_button {
+    position: absolute;
+    width: Hug(178px) px;
+    height: Hug(58px) px;
+    top: 492px;
+    left: 215px;
+
+}
+
+.Upload_button button {
+    padding: 18px 44px 18px 44px;
+    gap: 0px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(255, 106, 29, 1);
+    color: rgba(255, 106, 29, 1);
+}
+
+.Get_button {
+    position: absolute;
+    width: Hug(178px) px;
+    height: Hug(58px) px;
+    top: 492px;
+    left: 417px;
+
+}
+
+.Get_button button {
+    padding: 18px 44px 18px 44px;
+    gap: 0px;
+    border-radius: 6px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    border: 1px solid rgba(255, 106, 29, 1);
+    background-color: rgba(255, 106, 29, 1);
+
+    color: white;
+}
+
+.Get_a_qoute {
+    background: rgba(255, 255, 255, 1);
+
+    position: absolute;
+    width: 100%;
+    height: 508px;
+    top: 603px;
+
+}
+
+.personal_qoute {
+    position: absolute;
+    width: 349px;
+    height: 41px;
+    top: 20px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.personal_qoute p {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 41.15px;
+    text-align: left;
+
+
+}
+
+.Select_Qoute {
+    width: 85%;
+    height: 376px;
+    position: absolute;
+    top: 81px;
+    left: 80px;
+
+
+
+
+}
+
+
+
+.start_qoate_button {
+    position: absolute;
+    width: 101px;
+    height: 22px;
+    top: 226px;
+    padding: 8px 28px 8px 28px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    background: rgba(243, 92, 0, 1);
+
+
+}
+
+.start_qoate_button button {
+    width: 88px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+    position: absolute;
+    border: none;
+    background: rgba(243, 92, 0, 1);
+    color: white;
+}
+
+
+
+/* .start_qoate_button button {
+    position: absolute;
+    width:  144px;
+    height: 38px;
+    padding: 8px 28px 8px 28px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(243, 92, 0, 1);
+
+
+} */
+
+
+
+
+.Choose_upload {
+
+
+    width: 100%;
+    height: 266px;
+    position: absolute;
+    top: 0px;
+    border: 1px solid rgba(255, 235, 225, 1)
+}
+
+.advert_upload_option {
+    width: 563px;
+    height: 162px;
+    position: absolute;
+    left: 30px;
+    top: 22px;
+}
+
+
+.choose_update {
+    width: 407px;
+    height: 22px;
+
+}
+
+.choose_update p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+
+}
+
+.radio_buttons {
+    position: absolute;
+    width: 15%;
+    height: 54px;
+    top: 32px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+.radio_buttons label {
+
+
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.radio_buttons input[type="radio"] {
+    width: 15px;
+    height: 15px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.adhere {
+    position: absolute;
+    width: 209px;
+    height: 14px;
+    top: 97px;
+    left: 8px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.adhere p {
+
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+}
+
+.dropdown_container {
+    position: absolute;
+    left: 125%;
+    top: 1%;
+    width: 245px;
+    height: 76px;
+}
+
+.plan_select {
+    width: 155px;
+    height: 22px;
+
+}
+
+.plan_select p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+/* ------------------------------------------------------- */
+
+
+
+
+.dropdown {
+    position: absolute;
+    width: Fixed (245px)px;
+    height: Hug (44px)px;
+    top: 32px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+}
+
+.dropdown label {
+    width: 112px;
+    height: 22px;
+}
+
+.dropdown select {
+    width: Fixed (245px)px;
+    height: Hug (44px)px;
+    top: 32px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.dropdown option {
+    font-size: 14px;
+}
+
+.dropdown option:hover {
+    background-color: #441313;
+}
+
+.Power_of_advertisement_container {
+    position: absolute;
+    width: 100%;
+    height: 567px;
+    top: 1086px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(254, 252, 251, 1);
+
+
+}
+
+.unlock_advrtisement {
+    position: absolute;
+    width: fit-content;
+    height: 44px;
+    top: 20px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.unlock_advrtisement h {
+
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+
+
+}
+
+.advert_upload_container {
+    position: absolute;
+    width: 100%;
+    height: 420px;
+    top: 51px;
+    gap: 10px;
+}
+
+.upload_container2 {
+    position: absolute;
+    position: absolute;
+    left: 65px;
+    top: 4%;
+    width: 1123px;
+    height: 373px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.choose_where_to_update {
+    position: absolute;
+    width: 407px;
+    height: 22px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.choose_where_to_update p {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.radio_buttons_conainer2 {
+    position: absolute;
+    width: fit-content;
+    height: Hug 54px;
+    top: 32px;
+    gap: 10px;
+    opacity: 0px;
+
+
+}
+
+.radio_buttons_conainer2 label {
+
+
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.radio_buttons_conainer2 input[type="radio"] {
+    width: 15px;
+    height: 15px;
+
+}
+
+
+
+
+.my_Upload_button2 {
+    position: absolute;
+    width: 89px;
+    height: 25px;
+    top: 128px;
+    left: 28px;
+    padding: 8px 10px 8px 11px;
+    gap: 0px;
+    border-radius: 3px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: rgba(255, 255, 255, 1);
+    border: 4px solid rgb(245, 87, 8)
+}
+
+
+
+/* ----------------------------------------------------------------- */
+.select_container {
+    position: absolute;
+    width: 245px;
+    height: 76px;
+    top: 223px;
+
+
+}
+
+.plan_select2 {
+    width: 155px;
+    height: 22px;
+
+}
+
+.plan_select2 p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+
+}
+
+.select_down {
+    position: absolute;
+    width: Fixed (245px)px;
+    height: Hug (44px)px;
+    top: 32px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.select_down label {
+    width: 112px;
+    height: 22px;
+}
+
+.select_down select {
+    width: Fixed (245px)px;
+    height: Hug (44px)px;
+    top: 32px;
+    padding: 10px 0px 0px 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+
+}
+
+.select_down option {
+    font-size: 14px;
+}
+
+.select_down option:hover {
+    background-color: rgb(231, 139, 231);
+}
+
+.preview_pic {
+    position: absolute;
+    width: 473px;
+    height: 274px;
+    top: -190px;
+    left: 760px;
+
+
+}
+
+
+footer {
+    width: 100%;
+    height: 215px;
+    position: absolute;
+    top: 109%;
+    background: rgba(255, 186, 155, 1);
+}
+
+.details {
+    position: absolute;
+    width: 179px;
+    height: 113px;
+    top: 5px;
+    left: 560px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+.location_details {
+    position: absolute;
+    width: 179px;
+    height: 59px;
+    gap: 5px;
+
+
+}
+
+/* .location_icon_1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+
+
+} */
+
+.location_icon_1 {
+    position: absolute;
+
+    width: 8px;
+    height: 8px;
+    top: 5px;
+    left: 85px;
+
+}
+
+/* .location_icon_2 img {
+    position: absolute;
+
+    width: 15px;
+    height: 17px;
+    top: 1.8px;
+    left: 82.1px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.location_icon_3 img {
+    position: absolute;
+    width: 17px;
+    height: 6px;
+    top: 15.5px;
+    left: 81px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px; 
+}
+*/
+.address {
+    width: 179px;
+    height: 30px;
+
+}
+
+.address p {
+    position: absolute;
+    top: 27px;
+
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+.contact_details {
+    position: absolute;
+    width: 87px;
+    height: 44px;
+    gap: 5px;
+    top: 58%;
+    left: 22%;
+
+
+
+}
+
+.phone_icon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 40%;
+    padding: 3px 0px 0px 0px;
+
+
+
+}
+
+.Phone_number {
+    position: absolute;
+    width: 87px;
+    height: 15px;
+    top: 61%;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.Phone_number p {
+    position: absolute;
+    /* top: 5px; */
+
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+
+
+}
+
+.social_platforms {
+    position: absolute;
+    width: 170px;
+    height: 52px;
+    top: 123px;
+    left: 560px;
+    gap: 0px;
+    opacity: 0px;
+
+
+
+
+}
+
+.facebook_logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 8px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 50%;
+    opacity: 0px;
+
+    background: rgba(255, 225, 209, 0.619);
+
+
+}
+
+.facebook_image {
+    position: absolute;
+    position: absolute;
+    width: 21px;
+    height: 24px;
+    top: 9px;
+    left: 4px;
+    padding: 1.44px 5.58px 1.56px 6.17px;
+    gap: 0px;
+    opacity: 0px;
+
+
+
+
+}
+
+.facebook_image img {
+    position: absolute;
+    width: 29.25px;
+    height: 25px;
+    top: 1.44px;
+    left: 1.17px;
+    gap: 0px;
+    opacity: 0px;
+
+
+
+}
+
+.linkedIN_logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 65px;
+    padding: 8px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 65%;
+    opacity: 0px;
+    background: rgba(255, 225, 209, 0.619);
+
+}
+
+.linkedIN_image {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 10px;
+    left: 6px;
+    padding: 1.99px 1px 2px 2.59px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.linkedIN_image img {
+    position: absolute;
+    width: 20.41px;
+    height: 21.01px;
+    top: 1.99px;
+    left: 2.59px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.twitter_logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 130px;
+    padding: 8px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 65%;
+    opacity: 0px;
+    background: rgba(255, 225, 209, 0.619);
+
+
+
+}
+
+.twitter_image {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 8px;
+    left: 7px;
+    padding: 2.78px 1.49px 3.5px 1.5px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.twitter_image img {
+    position: absolute;
+    width: 21.01px;
+    height: 17.72px;
+    top: 4.78px;
+    left: 1.5px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.copyright {
+    position: absolute;
+    width: 324px;
+    height: 15px;
+    top: 190px;
+    left: 495px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.copyright p {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.52px;
+    text-align: left;
+
+
+}
